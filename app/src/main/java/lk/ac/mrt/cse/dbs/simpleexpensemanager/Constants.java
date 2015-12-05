@@ -21,4 +21,19 @@ package lk.ac.mrt.cse.dbs.simpleexpensemanager;
  */
 public class Constants {
     public static final String EXPENSE_MANAGER = "expense-manager";
+
+    public static final String DATABASE_NAME="expense.db";
+
+    public  static final String TABLE_ACCOUNT="account";
+    public  static final String TABLE_ACCOUNT_COLUMN_ACCOUNTNUMBER="accountNumber";
+    public  static final String TABLE_ACCOUNT_COLUMN_BANKNAME="bankName";
+    public  static final String TABLE_ACCOUNT_COLUMN_HOLDERNAME="accountHolderName";
+    public  static final String TABLE_ACCOUNT_COLUMN_BALANCE="balance";
+
+    public static final String TABLE_TRANSACTION="transactions";
+    public static final String TABLE_TRANSACTION_COLUMN_ACCOUNTNUMBER="accountNumber";
+    public static final String TABLE_TRANSACTION_COLUMN_EXPENSETYPE="expenseType";
+    public static final String TABLE_TRANSACTION_COLUMN_AMOUNT="amount";
+    public static final String TABLE_TRANSACTION_COLUMN_DATE="date";
+
 }
